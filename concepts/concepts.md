@@ -50,7 +50,8 @@ Tool的统一接入规范
 
 提前写好塞给Agent的一份说明文档，避免多次对话时输入重复的背景条件。策略是**渐进式披露**。
 
-由 **元数据层**（*name* + *description*）+ **指令层**组成
+由 **元数据层**（*name* + *description*）+ **指令层**组成  
+[AgentSkill 详细说明](AgentSkill.md)
 
 ## Harness Engineering
 [harness 详细说明](Harness-Engineering.md)
@@ -61,5 +62,5 @@ Retrieval-Augmented Generation  检索增强生成
 - 再基于这些内容来**生成**答案
 
 
-[详细说明](RAG.md)
+[RAG 详细说明](RAG.md)
 
