@@ -37,7 +37,14 @@
 Tool的统一接入规范
 
 ## Agent
-能够自主规划、自主调用工具，直到完成用户任务的系统
+能够自主规划、自主调用工具，直到完成用户任务的系统  
+两种模式：
+- react模式  
+核心步骤：Thought, Action, Observation, Final Answer
+- plan-and-execute 模式  
+是Agent套Agent的一个模型，多了一个replan的动态修正 
+
+
 
 ## Agent skill
 
