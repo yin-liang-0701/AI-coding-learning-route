@@ -1,4 +1,4 @@
-# 概念总集合
+<img width="374" height="128" alt="image" src="https://github.com/user-attachments/assets/cb61e0fb-bb7b-41ae-981b-689192467646" /># 概念总集合
 
 ## AI 重心迁移史
 - Prompt Engineering
@@ -14,6 +14,8 @@
 - Harness Engineering
 
   模型在真实执行里能不能持续做对
+
+  更关注模型别跑偏、跑得稳、跑错了还能拉回来。
 
 ## Transformer
 是当前AI使用的架构，本质上是**编码器-翻译-解码器**。
@@ -42,3 +44,7 @@ Tool的统一接入规范
 提前写好塞给Agent的一份说明文档，避免多次对话时输入重复的背景条件。策略是**渐进式披露**。
 
 由 **元数据层**（*name* + *description*）+ **指令层**组成
+
+## Harness Engineering
+[详细说明](Harness Engineering.md)
+
