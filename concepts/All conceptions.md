@@ -1,8 +1,10 @@
 # 概念总集合
 
 ## AI 重心迁移史
-- Prompt Engineering 模型有没有听懂你在说什么
-- Context Engineering 模型有没有拿到足够且正确的信息
+- Prompt Engineering 模型有没有听懂你在说什么。
+  本质上不是“命令模型”，而是塑造一个**概率局部空间**，更专注于**语言设计**。
+- Context Engineering 模型有没有拿到足够且正确的信息。
+  系统在调用时将必须模型未必知道的信息在合适的时机把**正确的信息**送进去。其实Prompt可以看作Context的一部分。
 - Harness Engineering 模型在真实执行里能不能持续做对
 
 ## Transformer
@@ -28,5 +30,5 @@ Tool的统一接入规范
 能够自主规划、自主调用工具，直到完成用户任务的系统
 
 ## Agent skill
-提前写好塞给Agent的一份说明文档，避免多次对话时输入重复的背景条件。
+提前写好塞给Agent的一份说明文档，避免多次对话时输入重复的背景条件。策略是**渐进式披露**。
 由 **元数据层**（*name* + *description*）+ **指令层**组成
